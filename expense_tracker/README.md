@@ -37,10 +37,32 @@ expense_tracker/
 ├── android/
 ├── ios/
 ├── lib/
+│   ├── main.dart
 │   ├── models/
 │   │   └── expense.dart
-│   ├── expenses.dart
-│   └── main.dart
+│   ├── services/
+│   │   ├── app_state.dart
+│   │   └── expense_storage.dart
+│   ├── pages/
+│   │   ├── history_page.dart
+│   │   ├── stats_page.dart
+│   │   ├── budget_page.dart
+│   │   └── settings_page.dart
+│   └── widgets/
+│       ├── app_shell.dart
+│       ├── expenses.dart
+│       ├── new_expense.dart
+│       ├── delete_helper.dart
+│       ├── chart/
+│       │   ├── chart.dart
+│       │   └── chart_bar.dart
+│       └── expenses_list/
+│           ├── expenses_list.dart
+│           └── expense_item.dart
+├── linux/
+├── macos/
+├── web/
+├── windows/
 ├── test/
 ├── pubspec.yaml
 └── README.md
